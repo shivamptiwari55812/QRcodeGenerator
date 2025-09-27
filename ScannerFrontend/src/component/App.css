@@ -1,0 +1,53 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+  
+  background-color: white !important;
+}
+
+.card-title{
+  font-size: 5vh;
+  color:orangered;
+}
+
+.generator-container{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.generator-card{
+  background-color: #ffffff;
+  border:1px solid black;
+  padding:2rem;
+  width:50vh;
+  display:flex;
+  gap:2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section{
+  display:flex;
+  flex-direction: row;
+  gap:2vh;
+}
+
+.generate-button{
+  height:4vh;
+  width:fit-content;
+  margin-top:0.7vh;
+  background-color: rgba(3, 13, 103, 0.859);
+  color:white;
+  padding:0.4vh;
+
+}
