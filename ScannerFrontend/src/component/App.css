@@ -42,6 +42,7 @@ body{
   gap:2vh;
 }
 
+.download-button,
 .generate-button{
   height:4vh;
   width:fit-content;
