@@ -29,8 +29,9 @@ cd qr-code-generator
 
 
 Install dependencies:
-
 npm install
+npm install react-qr-code html2canvas
+
 
 
 Start the development server:
@@ -49,9 +50,10 @@ Click Download to save the QR code as an image.
 src/
  ├── components/
  │    └── QRGenerator.tsx   # Main QR Generator component
+          App.css           # CSS for the component
  ├── App.tsx                # Root component
  ├── main.tsx               # Entry point
- └── index.css              # Styles
+ └──              
 
 
 🤝 Contributing
