@@ -12,7 +12,7 @@ const App = () => {
   };
 
   return (
-    <BarcodeScanner/>
+    <QRGenerator/>
   );
 };
 
